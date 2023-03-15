@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-console.log('env',process.env.REACT_APP_CLIENT_ID);
+console.log('env',process.env.GATSBY_APP_CLIENT_ID);
 
 const IndexPage = () => (
   <Layout>
